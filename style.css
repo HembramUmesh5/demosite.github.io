@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+}
+
+header{
+    
+    
+
+    background: rgb(17 143 158);
+    /*greenish background*/
+
+
+}
+
+.banner{
+    background-image: url(/logo/apni\ ka.png);
+    height: 20vw;
+    min-height: 100px;
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: 100%;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    background-color: #333;
+    /*gray color*/
+    align-items: center;
+
+    
+}
+ 
+nav a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 14px 20px;
+    color: white;
+    
+
+      
+} 
+
+.menu-btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+section{
+    text-align: center ;
+    padding: 40px;
+    height: auto;
+    overflow: hidden;
+}
+
+section:nth-child(even){
+    background-color: #ecec;
+}
+ 
+
+img{
+    padding: 0px 20px ;
+}
+
+
+h2{
+    padding-bottom: 40px;
+}
+
+footer{
+    
+    background-color: #333;
+    overflow: hidden;
+     
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 20px;
+    color: white;
+    float: left; 
+
+}
+
+.copyright{
+    float: right;
+}
+ 
+.flex-align-right{  
+    
+    float: right;
+}
+ 
+section h2 span{
+    background:linear-gradient(to right,#f5d837, #3bbb87 );
+    border-radius: 20px;
+    padding: 10px 55px;
+    color: white;
+}
+
+
+
+  .carousel-cell {
+      width: 66%;
+    margin-right: 10px;
+    
+    border-radius: 5px;
+    overflow: hidden;
+
+
+  }
+
+.carousel-cell video{
+    max-width: 100%;
+}
+  
+.profile-img{
+    border-radius: 50%;
+}
+ 
+.profile-name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+.sm-handeler a{
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+    
+}
+.sm-handeler a:hover{
+    background-color: rgb(30 30 30 / 25%);
+}
+
+.sm-handeler a i{
+    margin: 5px;
+}
+.yt-handler{
+    color:#ff0000;
+}
+
+.insta-handler{
+    color: rgb(64,93,230);
+}
+
+
+p{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:700px  ) {
+    nav{
+        flex-direction: column;
+    }
+    .flex-align-right{  
+        margin: 0;
+    }
+}
